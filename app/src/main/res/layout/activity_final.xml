@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcground"
+    tools:context=".FinalAct">
+
+
+    <TextView
+        android:id="@+id/txtCondition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="@font/kindlyjasmineg"
+        android:text="Looks like you found\nyour way."
+        android:textAlignment="center"
+        android:textColor="@color/darkBlue"
+
+        android:textSize="55sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonStartAgain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonStartAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="406dp"
+        android:backgroundTint="@color/turquoise"
+        android:fontFamily="@font/zrnic2"
+        android:onClick="again"
+        android:text="Try again!"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCondition" />
+</androidx.constraintlayout.widget.ConstraintLayout>

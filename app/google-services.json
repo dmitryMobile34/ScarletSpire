@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "37830959705",
+    "project_id": "scarlet-spire-7ac0c",
+    "storage_bucket": "scarlet-spire-7ac0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37830959705:android:0d71e92e7376ae015a8748",
+        "android_client_info": {
+          "package_name": "com.namcobandaigames.spmoja01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37830959705-3vm0em5e03195p6vl0apb4h1ildqhrrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXeyISFud6ZRQqun7IY1ioZ6A1o8J172Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37830959705-3vm0em5e03195p6vl0apb4h1ildqhrrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
